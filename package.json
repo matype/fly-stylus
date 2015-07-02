@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git://github.com/morishitter/fly-stylus/git"
   },
-  "keywords": ["fly","flyplugin","stylus"],
+  "keywords": [
+    "fly",
+    "flyplugin",
+    "stylus"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "stylus": "^0.51.1"
+  },
   "devDependencies": {
+    "fly": "0.0.4"
   }
 }
