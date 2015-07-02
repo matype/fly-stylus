@@ -1,7 +1,7 @@
 var stylus = require('stylus')
 module.exports = function () {
     this.stylus = function (options) {
-        .filter((data) => {
+        return this.filter((data) => {
             try {
                 return stylus.render(data, options, function (err, css) {
                     if (err) throw err
