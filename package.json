@@ -1,0 +1,19 @@
+{
+  "name": "fly-stylus",
+  "version": "0.0.1",
+  "description": "Fly plugin for Stylus",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/fly-stylus/git"
+  },
+  "keywords": ["fly","flyplugin","stylus"],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
