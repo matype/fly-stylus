@@ -9,11 +9,11 @@
 [![][fly-badge]][fly] ![][mit-badge]
 
 ## Usage
-To learn about what options are available, check out the [stylus JS API documentation](https://github.com/stylus/stylus/blob/master/docs/js.md)
+To learn about what options are available, check out the [Stylus JavaScript API documentation](https://github.com/stylus/stylus/blob/master/docs/js.md)
 ### Install
 
 ```
-$ npm install --save-dev fly-stylus
+$ npm install -D fly-stylus
 ```
 
 ### Example
