@@ -15,6 +15,8 @@
 ## Usage
 > Check out the [documentation](PLUGIN_DOCUMENTATION) to see the available options.
 
+To learn about what options are available, check out the [Stylus JS API documentation](https://github.com/stylus/stylus/blob/master/docs/js.md).
+
 ### Install
 
 ```a
