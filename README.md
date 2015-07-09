@@ -31,7 +31,7 @@ exports.stylus = function* () {
   yield this
     .source('src/*.styl')
     .stylus()
-    target('dist')
+    .target('dist')
 }
 ```
 
