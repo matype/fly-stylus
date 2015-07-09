@@ -26,8 +26,12 @@ npm install -D fly-stylus
 ### Example
 
 ```js
-export default function* () {
-  yield ...
+
+exports.stylus = function* () {
+  yield this
+    .source('src/*.styl')
+    .stylus()
+    target('dist')
 }
 ```
 
