@@ -4,39 +4,45 @@
   </a>
 </div>
 
-> [Stylus](https://learnboost.github.io/stylus/) plugin for [Fly][fly].
->
-[![][fly-badge]][fly] ![][mit-badge]
+> [Stylus](https://github.com/morishitter/fly-stylus) plugin for _[Fly][fly]_.
+
+[![][fly-badge]][fly]
+[![npm package][npm-ver-link]][releases]
+[![][dl-badge]][npm-pkg-link]
+[![][travis-badge]][travis-link]
+[![][mit-badge]][mit]
 
 ## Usage
-To learn about what options are available, check out the [Stylus JavaScript API documentation](https://github.com/stylus/stylus/blob/master/docs/js.md)
+> Check out the [documentation](PLUGIN_DOCUMENTATION) to see the available options.
+
 ### Install
 
-```
-$ npm install -D fly-stylus
+```a
+npm install -D fly-stylus
 ```
 
 ### Example
 
 ```js
-
-exports.stylus = function* () {
-  yield this
-    .source('src/*.styl')
-    .stylus()
-    .target('dist')
+export default function* () {
+  yield ...
 }
 ```
 
 # License
 
-[MIT](http://opensource.org/licenses/MIT) © [Masaaki Morishita][author]
+[MIT][mit] © [morishitter][author] et [al][contributors]
 
 
-[author]: https://github.com/morishitter
-
-[fly]: https://www.github.com/flyjs/fly
-
-[fly-badge]: https://img.shields.io/badge/fly-JS-05B3E1.svg?style=flat-square
-[mit-badge]: https://img.shields.io/badge/license-MIT-444444.svg?style=flat-square
-
+[mit]:          http://opensource.org/licenses/MIT
+[author]:       http://github.com/morishitter
+[contributors]: https://github.com/morishitter/fly-stylus/graphs/contributors
+[releases]:     https://github.com/morishitter/fly-stylus/releases
+[fly]:          https://www.github.com/flyjs/fly
+[fly-badge]:    https://img.shields.io/badge/fly-JS-05B3E1.svg?style=flat-square
+[mit-badge]:    https://img.shields.io/badge/license-MIT-444444.svg?style=flat-square
+[npm-pkg-link]: https://www.npmjs.org/package/fly-stylus
+[npm-ver-link]: https://img.shields.io/npm/v/fly-stylus.svg?style=flat-square
+[dl-badge]:     http://img.shields.io/npm/dm/fly-stylus.svg?style=flat-square
+[travis-link]:  https://travis-ci.org/morishitter/fly-stylus
+[travis-badge]: http://img.shields.io/travis/morishitter/fly-stylus.svg?style=flat-square

@@ -1,21 +1,40 @@
 {
   "name": "fly-stylus",
-  "version": "0.2.0",
-  "description": "Fly plugin for Stylus",
+  "version": "0.3.0",
+  "description": "Stylus plugin for Fly.",
+  "license": "MIT",
+  "repository": "https://github.com/morishitter/fly-stylus",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/morishitter/fly-stylus/git"
-  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "fly",
-    "flyplugin",
     "stylus"
   ],
-  "author": "Masaaki Morishita",
-  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.js",
+    "setup": "npm i && npm test &&",
+    "test": "npm run lint && tape test/*.js | tspec",
+    "build": "echo No build task specified.",
+    "deploy": "npm run test && git push origin master && npm publish",
+    "test-ci": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js"
+  },
+  "author": {
+    "name": "morishitter",
+    "email": "morishitter@gmail.com",
+    "url": "http://github.com/morishitter"
+  },
   "dependencies": {
     "stylus": "^0.51.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^0.21.2",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "engines": {
+    "iojs": ">= 1.0.0",
+    "node": ">= 0.11.0"
+  }
 }
