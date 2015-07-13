@@ -3,5 +3,5 @@ module.exports = function () {
     try {
       return require("stylus")(source, options).render()
     } catch (e) { throw e }
-  })
+  }, { ext: ".css" })
 }
