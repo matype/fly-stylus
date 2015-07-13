@@ -1,3 +1,7 @@
+## 0.3.1
+
+- Fix dest file extension (`.styl` -> `.css`)
+
 ## 0.3.0
 
 - Use generator-fly
