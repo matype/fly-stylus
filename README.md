@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> [Stylus](https://github.com/morishitter/fly-stylus) plugin for _[Fly][fly]_.
+> [Stylus](https://github.com/stylus/stylus) plugin for _[Fly][fly]_.
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
