@@ -1,3 +1,7 @@
+## 0.3.2
+
+- Use new logo
+
 ## 0.3.1
 
 - Fix dest file extension (`.styl` -> `.css`)
