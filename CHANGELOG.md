@@ -1,3 +1,7 @@
+## 0.4.0
+
+- Raw data to string
+
 ## 0.3.2
 
 - Use new logo
