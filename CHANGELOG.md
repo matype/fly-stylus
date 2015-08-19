@@ -1,3 +1,7 @@
+## 0.5.0
+
+- Update to new [API](https://github.com/flyjs/fly/releases/tag/v0.7.0).
+
 ## 0.4.0
 
 - Raw data to string
