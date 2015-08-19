@@ -27,7 +27,7 @@
     "url": "http://github.com/morishitter"
   },
   "dependencies": {
-    "stylus": "^0.51.1",
+    "stylus": "^0.51.1"
   },
   "devDependencies": {
     "eslint": "^0.21.2",
