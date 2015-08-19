@@ -1,6 +1,6 @@
 {
   "name": "fly-stylus",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Stylus plugin for Fly.",
   "license": "MIT",
   "repository": "https://github.com/morishitter/fly-stylus",
@@ -27,7 +27,7 @@
     "url": "http://github.com/morishitter"
   },
   "dependencies": {
-    "stylus": "^0.51.1"
+    "stylus": "^0.51.1",
   },
   "devDependencies": {
     "eslint": "^0.21.2",
